@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: blueviolet;
+}
+
+ul {
+  list-style: none;
+  font-size: 4em;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  color: aquamarine;
+}
+
+.indexH1 {
+  text-align: center;
+  font-size: 6em;
+  color: antiquewhite;
+}
+
+.buttonsToo ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  color: antiquewhite;
+  bottom: 0;
+  text-align: center;
+}
