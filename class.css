@@ -7,47 +7,30 @@
   margin: 0;
   /*transform: rotate(90deg);*/
 }
-
-.neonCar {
+:is(.neonCar, .neonCity, .neonMask, .neonArtist) {
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(CarHeroImg/CarHeroImg6.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+}
+.neonCar {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(CarHeroImg/CarHeroImg6.png);
 }
 
 .neonMask {
-  min-height: 100vh;
-  width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
     url(XmaskHeroImg/XmaskHeroImg3.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
 }
 
 .neonCity {
-  min-height: 100vh;
-  width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
     url(CityHeroImg/CityHeroImg1.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
 }
 
 .neonArtist {
-  min-height: 100vh;
-  width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
     url(ArtistHeroImg/ArtisHeroImg4.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
 }
