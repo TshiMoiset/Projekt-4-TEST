@@ -1,13 +1,19 @@
 header {
+  padding: 10px 20px;
   background-color: rgba(5, 30, 55, 0.8);
+  text-align: center;
 }
 
-.navbar {
-  display: flex;
-  align-items: center;
+.logo {
+  font-family: "Neon-Display";
+  font-size: 3em;
+  color: white;
+  margin: 0;
+  transition-duration: 500ms;
+  /*transform: rotate(90deg);*/
 }
 
-.navbar a {
-  display: flex;
-  justify-content: space-evenly;
+.logo:hover {
+  transform: scale(1.09);
+  cursor: pointer;
 }
