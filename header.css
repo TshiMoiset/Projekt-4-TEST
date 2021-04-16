@@ -33,11 +33,12 @@ header {
 
 .navbarLinks a {
   color: #06bdd9;
-  transition-duration: 400ms;
+  transition-duration: 350ms;
 }
 
 .navbarLinks a:hover {
   color: white;
+  transform: scale(1.9);
 }
 
 .navbar ul li {
