@@ -1,5 +1,27 @@
 @import url(//db.onlinewebfonts.com/c/6207747900cfb386801d961165d4f933?family=Neon-Display);
 
+/*------------------  Scrollen  ------------------*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #041e37;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0b6280;
+}
+
 .logo {
   font-family: "Neon-Display";
   font-size: 3em;
@@ -7,6 +29,8 @@
   margin: 0;
   /*transform: rotate(90deg);*/
 }
+
+/*----------------  Kod för backgrundsbilderna ----------------*/
 :is(.neonCar, .neonCity, .neonMask, .neonArtist) {
   min-height: 100vh;
   width: 100%;
