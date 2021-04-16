@@ -7,6 +7,7 @@ body {
 }
 
 a {
+  text-decoration: none;
   color: white;
 }
 
@@ -30,14 +31,6 @@ a {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #0b6280;
-}
-
-.logo {
-  font-family: "Neon-Display";
-  font-size: 3em;
-  color: white;
-  margin: 0;
-  /*transform: rotate(90deg);*/
 }
 
 /*----------------  Kod för backgrundsbilderna ----------------*/
