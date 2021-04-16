@@ -1,6 +1,6 @@
 header {
   padding: 10px 20px;
-  background-color: rgba(5, 30, 55, 0.8);
+  background-color: rgba(5, 30, 55, 0.7);
 }
 
 .navbarIcon {
@@ -28,6 +28,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.navbarLinks {
+  color: aliceblue;
 }
 
 .navbar ul li {
