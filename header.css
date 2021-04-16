@@ -3,10 +3,11 @@ header {
 }
 
 .navbar {
+  display: flex;
   align-items: center;
 }
 
-.navbar ul {
+.navbar a {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
