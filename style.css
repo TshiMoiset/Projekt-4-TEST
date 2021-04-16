@@ -1,13 +1,70 @@
+@import url(//db.onlinewebfonts.com/c/6207747900cfb386801d961165d4f933?family=Neon-Display);
+
 body {
   margin: 0;
   padding: 0;
   color: white;
 }
 
-header {
-  background-color: ;
-}
-
 a {
   color: white;
+}
+
+/*------------------  Scrollen  ------------------*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #041e37;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0b6280;
+}
+
+.logo {
+  font-family: "Neon-Display";
+  font-size: 3em;
+  color: white;
+  margin: 0;
+  /*transform: rotate(90deg);*/
+}
+
+/*----------------  Kod för backgrundsbilderna ----------------*/
+:is(.neonCar, .neonCity, .neonMask, .neonArtist) {
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.neonCar {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(CarHeroImg/CarHeroImg6.png);
+}
+
+.neonMask {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(XmaskHeroImg/XmaskHeroImg3.jpg);
+}
+
+.neonCity {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(CityHeroImg/CityHeroImg1.jpg);
+}
+
+.neonArtist {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(ArtistHeroImg/ArtisHeroImg4.jpg);
 }
