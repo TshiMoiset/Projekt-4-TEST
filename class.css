@@ -1,5 +1,11 @@
-.test p {
-  transform: rotate(90deg);
+@import url(//db.onlinewebfonts.com/c/6207747900cfb386801d961165d4f933?family=Neon-Display);
+
+.logo {
+  font-family: "Neon-Display";
+  font-size: 3em;
+  color: aqua;
+  margin: 0;
+  /*transform: rotate(90deg);*/
 }
 
 .neonCar {
@@ -23,6 +29,7 @@
   background-repeat: no-repeat;
   position: relative;
 }
+
 .neonCity {
   min-height: 100vh;
   width: 100%;
