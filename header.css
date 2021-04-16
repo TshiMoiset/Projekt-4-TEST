@@ -11,13 +11,14 @@ header {
 .logo {
   font-family: "Neon-Display";
   font-size: 2em;
-  color: white;
+  color: #06bdd9;
   margin: 0;
   transition-duration: 500ms;
   /*transform: rotate(90deg);*/
 }
 
 .logo:hover {
+  color: white;
   transform: scale(1.09);
   cursor: pointer;
 }
@@ -30,8 +31,13 @@ header {
   justify-content: space-between;
 }
 
-.navbarLinks {
-  color: aliceblue;
+.navbarLinks a {
+  color: #06bdd9;
+  transition-duration: 400ms;
+}
+
+.navbarLinks a:hover {
+  color: white;
 }
 
 .navbar ul li {
