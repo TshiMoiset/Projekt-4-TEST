@@ -1,4 +1,12 @@
 header {
-  background-color: #051e37;
-  opacity: 0.1;
+  background-color: rgba(5, 30, 55, 0.8);
+}
+
+.navbar {
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
 }
