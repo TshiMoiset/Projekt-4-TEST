@@ -3,6 +3,9 @@
 }
 
 @media screen and (max-width: 541px) {
+  .hamburgerButton {
+    display: flex;
+  }
 }
 
 /*------------- @MEDIA ------------- @MEDIA -------------*/

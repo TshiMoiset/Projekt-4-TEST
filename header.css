@@ -10,11 +10,29 @@ header {
   font-size: 3em;
 }
 
+.hamburgerNavbarLinks {
+  display: flex;
+  justify-content: left;
+  position: fixed;
+  z-index: 1;
+  background-color: #051e37;
+  top: 0%;
+  right: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.hamburgerNavbarLinks li {
+  list-style: none;
+  margin: 30px;
+  font-size: 1.6em;
+}
+
 .hamburgerButton {
   position: absolute;
   top: 0.75rem;
   right: 1rem;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-between;
   width: 30px;
@@ -23,6 +41,29 @@ header {
 }
 
 .hamburgerButton .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.hamburgerButton:hover {
+  cursor: pointer;
+}
+
+.crossButton {
+  position: absolute;
+  top: 0.75rem;
+  right: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+  margin-top: 10px;
+}
+
+.crossButton .bar {
   height: 3px;
   width: 100%;
   background-color: white;

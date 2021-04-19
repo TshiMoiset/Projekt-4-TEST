@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="mediaQueries.css">
-    <script src="style.js"></script>
+    <script src="style.js" defer></script>
     <link rel="shortcut icon" href="ArtistHeroImg/ArtisHeroImg1.jpg" type="image/x-icon">
 </head>
 <body class="neonArtist">
@@ -19,7 +19,15 @@
             
             <span class="logo">NeoN</span>
 
-            <ul>
+            <div class="hamburgerButton" onclick="openNavbar()">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            
+            
+            
+            <!--<ul>
                 <li>
                     <a href="#" class="hamburgerButton">
                         <span class="bar"></span>
@@ -27,9 +35,9 @@
                         <span class="bar"></span>
                     </a>
                 </li>
-            </ul>
-
-            <div class="navbarLinks" id="navbarId">
+            </ul>-->
+            
+            <div class="navbarLinks">
                 <ul>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Artist</a></li>
@@ -39,6 +47,22 @@
             </div>
             
         </div>
+        
+        <div class="hamburgerNavbarLinks" id="hamburgerNavbarLinks">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Artist</a></li>
+                <li><a href="#">Consert</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+            <div class="crossButton" onclick="closeNavbar()">
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+        
+
+
     </header>
 
     <main>
