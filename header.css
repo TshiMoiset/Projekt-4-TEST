@@ -13,6 +13,8 @@
       format("svg");
 }
 
+@import url(//db.onlinewebfonts.com/c/6207747900cfb386801d961165d4f933?family=Neon-Display);
+
 header {
   padding: 10px 20px;
   background-color: rgba(5, 30, 55, 0.7);
@@ -43,6 +45,7 @@ header {
 }
 
 .logo {
+  font-family: "Neon-Display";
   font-family: "Neon-Display";
   font-size: 2em;
   color: #06bdd9;
