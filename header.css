@@ -1,4 +1,4 @@
-@import url(//db.onlinewebfonts.com/c/6207747900cfb386801d961165d4f933?family=Neon-Display);
+@import url("//db.onlinewebfonts.com/c/6207747900cfb386801d961165d4f933?family=Neon-Display");
 @font-face {
   font-family: "Neon-Display";
   src: url("//db.onlinewebfonts.com/t/6207747900cfb386801d961165d4f933.eot");
@@ -13,7 +13,6 @@
     url("//db.onlinewebfonts.com/t/6207747900cfb386801d961165d4f933.svg#Neon-Display")
       format("svg");
 }
-
 main {
   display: block;
 }
