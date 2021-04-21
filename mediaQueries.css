@@ -1,8 +1,6 @@
 /*------------- @MEDIA ------------- @MEDIA -------------*/
 @media screen and (max-width: 769px) {
-}
-
-@media screen and (max-width: 541px) {
+  /*------------- Header -------------*/
   .hamburgerButton {
     display: flex;
   }
@@ -10,6 +8,9 @@
   .navbarLinks {
     display: none;
   }
+}
+
+@media screen and (max-width: 541px) {
 }
 
 /*------------- @MEDIA ------------- @MEDIA -------------*/
