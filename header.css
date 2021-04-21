@@ -1,4 +1,17 @@
-@import url("https://db.onlinewebfonts.com/c/6207747900cfb386801d961165d4f933?family=Neon-Display");
+@font-face {
+  font-family: "Neon-Display";
+  src: url("https://db.onlinewebfonts.com/t/6207747900cfb386801d961165d4f933.eot");
+  src: url("https://db.onlinewebfonts.com/t/6207747900cfb386801d961165d4f933.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/6207747900cfb386801d961165d4f933.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/6207747900cfb386801d961165d4f933.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/6207747900cfb386801d961165d4f933.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/6207747900cfb386801d961165d4f933.svg#Neon-Display")
+      format("svg");
+}
 
 main {
   display: block;
