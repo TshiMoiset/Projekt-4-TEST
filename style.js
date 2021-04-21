@@ -8,7 +8,7 @@ function openNavbar() {
 
 }
 
-var x = window.matchMedia("(max-width: 540px)")
+let x = window.matchMedia("(max-width: 768px)")
 
 function closeNavbar() {
     document.getElementById("hamburgerNavbarLinks").style.width = "0%";
