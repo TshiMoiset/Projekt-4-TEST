@@ -6,6 +6,10 @@
   .hamburgerButton {
     display: flex;
   }
+
+  .navbarLinks {
+    display: none;
+  }
 }
 
 /*------------- @MEDIA ------------- @MEDIA -------------*/

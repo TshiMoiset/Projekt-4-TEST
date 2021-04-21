@@ -1,5 +1,13 @@
 @import url(//db.onlinewebfonts.com/c/6207747900cfb386801d961165d4f933?family=Neon-Display);
 
+main {
+  display: block;
+}
+
+main.active {
+  display: none;
+}
+
 header {
   padding: 10px 20px;
   background-color: rgba(5, 30, 55, 0.7);
@@ -11,7 +19,7 @@ header {
 }
 
 .hamburgerNavbarLinks {
-  display: flex;
+  display: none;
   justify-content: left;
   position: fixed;
   z-index: 1;
@@ -52,22 +60,14 @@ header {
 }
 
 .crossButton {
+  font-size: 1.9em;
   position: absolute;
-  top: 0.75rem;
-  right: 5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 30px;
-  height: 21px;
-  margin-top: 10px;
+  top: 10px;
+  right: 19px;
 }
 
-.crossButton .bar {
-  height: 3px;
-  width: 100%;
-  background-color: white;
-  border-radius: 10px;
+.crossButton {
+  cursor: pointer;
 }
 
 .logo {
