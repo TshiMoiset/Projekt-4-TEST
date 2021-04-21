@@ -17,19 +17,34 @@
 <body class="neonCar">
     <header>
         <div class="navbar">
-            
             <span class="logo">NeoN</span>
 
-            <div class="navbarLinks" id="navbarId">
+            <div class="hamburgerButton" onclick="openNavbar()" id="hamburgerButton">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <div class="navbarLinks">
                 <ul>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Artist</a></li>
                     <li><a href="#">Consert</a></li>
                     <li><a href="#">FAQ</a></li>
-                    <li><a href="javascript:void(0);" class="navbarIcon" onclick="responsiveNavbar()">&equiv;</a></li>
                 </ul>
             </div>
-            
+        </div>
+        
+        <div class="hamburgerNavbarLinks" id="hamburgerNavbarLinks">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Artist</a></li>
+                <li><a href="#">Consert</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+            <div class="crossButton" onclick="closeNavbar()" id="closeButoon">
+                <div>&#10006;</div>
+            </div>
         </div>
     </header>
 
