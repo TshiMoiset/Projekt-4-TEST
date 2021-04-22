@@ -4,8 +4,6 @@ function openNavbar() {
     document.getElementById("closeButoon").style.display = "flex";
     document.getElementById("hamburgerNavbarLinks").style.display = "flex";
     document.querySelector("main").classList.toggle("active");
-  
-
 }
 
 let x = window.matchMedia("(max-width: 768px)")
