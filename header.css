@@ -41,6 +41,11 @@ header {
   right: 0%;
   width: 100%;
   height: 100%;
+  transition: 500ms;
+}
+
+.hamburgerNavbarLinks a {
+  transition: 500ms;
 }
 
 .hamburgerNavbarLinks li {
