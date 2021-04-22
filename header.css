@@ -27,11 +27,6 @@ header {
   background-color: #051e37;
 }
 
-.navbarIcon {
-  display: none;
-  font-size: 3em;
-}
-
 .hamburgerNavbarLinks {
   display: none;
   justify-content: left;
