@@ -13,7 +13,6 @@ function closeNavbar() {
     document.getElementById("closeButoon").style.display = "none";
     document.getElementById("hamburgerButton").style.display = "none"; 
     document.querySelector("main").classList.toggle("active");
-
     
     if (x.matches) {
         document.getElementById("hamburgerButton").style.display = "flex";
