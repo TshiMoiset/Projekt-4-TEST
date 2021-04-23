@@ -49,14 +49,13 @@ header {
 
 .hamburgerButton {
   position: absolute;
-  top: 0.75rem;
+  top: 1.2rem;
   right: 1rem;
   display: none;
   flex-direction: column;
   justify-content: space-between;
   width: 30px;
   height: 21px;
-  margin-top: 10px;
 }
 
 .hamburgerButton .bar {
