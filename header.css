@@ -13,6 +13,16 @@
       format("svg");
 }
 
+@font-face {
+  font-family: "Abeat";
+  src: url("Abeatbykai-8geZ.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "AvantGarde";
+  src: url("AvantGardeBookBT.ttf") format("woff");
+}
+
 body {
   display: block;
 }
@@ -106,6 +116,10 @@ header {
 .navbarLinks a {
   color: #06bdd9;
   transition-duration: 350ms;
+  /*letter-spacing: 0.2em;
+  font-size: 0.8em;
+  font-family: "Abeat";*/
+  font-family: "AvantGarde";
 }
 
 .navbarLinks a:hover {
@@ -145,6 +159,12 @@ header {
   width: 100%;
   padding-bottom: 3px;
   border-bottom: solid 1px white;
+  font-family: "AvantGarde";
+}
+
+.hamburgerNavContent a {
+  font-family: "AvantGarde";
+  font-size: 0.8em;
 }
 
 /*.dotMenu {
