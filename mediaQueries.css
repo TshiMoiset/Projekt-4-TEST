@@ -8,10 +8,6 @@
   .navbarLinks {
     display: none;
   }
-
-  .crossButton {
-    color: white;
-  }
 }
 
 @media screen and (max-width: 541px) {

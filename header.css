@@ -32,6 +32,10 @@ header {
   background-color: #051e37;
 }
 
+li {
+  list-style: none;
+}
+
 .hamburgerNav {
   display: none;
   justify-content: left;
@@ -47,8 +51,6 @@ header {
 }
 
 .hamburgerNav li {
-  list-style: none;
-  margin: 30px;
   font-size: 1.6em;
 }
 
@@ -120,7 +122,6 @@ header {
 
 .navbar ul li {
   display: inline;
-  list-style: none;
   margin: 0 20px;
 }
 
@@ -147,6 +148,10 @@ header {
 .hamburgerNavContent ul {
   padding: 0;
   margin-top: -10px;
+}
+
+.hamburgerNavContent li {
+  margin: 30px;
 }
 
 .hamburgerNavContent h2 {
