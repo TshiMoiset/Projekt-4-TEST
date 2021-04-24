@@ -1,14 +1,14 @@
-let y = window.matchMedia("(max-width: 768px)")
-let y2 = window.matchMedia("(max-width: 568px)")
+let screenSizex = window.matchMedia("(max-width: 768px)")
+let screenSizey = window.matchMedia("(max-width: 568px)")
 
 function openNavbar() {
     document.getElementById("closeButoon").style.display = "flex";
     document.getElementById("hamburgerNavbarLinks").style.display = "flex";
     document.querySelector("body").classList.toggle("active");
 
-    if (y2.matches) {
+    if (screenSizey.matches) {
         document.getElementById("hamburgerNavbarLinks").style.width = "100%";
-    } else if (y.matches) {
+    } else if (screenSizex.matches) {
         document.getElementById("hamburgerNavbarLinks").style.width = "60%";
         document.querySelector("main").style.opacity = "0.4";
         document.querySelector("main").style.backgroundColor = "rgba(0,0,0,0.4)"
