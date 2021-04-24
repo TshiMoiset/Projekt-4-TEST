@@ -27,7 +27,7 @@ header {
   background-color: #051e37;
 }
 
-.hamburgerNavbarLinks {
+.hamburgerNav {
   display: none;
   justify-content: left;
   position: fixed;
@@ -41,7 +41,7 @@ header {
   overflow-y: scroll;
 }
 
-.hamburgerNavbarLinks li {
+.hamburgerNav li {
   list-style: none;
   margin: 30px;
   font-size: 1.6em;
