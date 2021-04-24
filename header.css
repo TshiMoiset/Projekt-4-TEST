@@ -127,8 +127,24 @@ header {
   margin: 10px 10px;
 }
 
+:is(.hamburgerNavLogo, .hamburgerNavContent) {
+  margin: 10px 10px;
+}
+
 .hamburgerNavContent {
   padding: 40px 0;
+  width: 100%;
+}
+
+.hamburgerNavContent ul {
+  padding: 0;
+  margin-top: -10px;
+}
+
+.hamburgerNavContent h2 {
+  width: 100%;
+  padding-bottom: 3px;
+  border-bottom: solid 1px white;
 }
 
 /*.dotMenu {
