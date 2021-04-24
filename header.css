@@ -122,6 +122,13 @@ header {
 
 .hamburgerNavLogo {
   font-family: "Neon-Display";
+  font-size: 1.9em;
+  position: absolute;
+  margin: 10px 10px;
+}
+
+.hamburgerNavContent {
+  padding: 40px 0;
 }
 
 /*.dotMenu {
