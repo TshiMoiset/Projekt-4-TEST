@@ -13,12 +13,12 @@
       format("svg");
 }
 
-main {
+body {
   display: block;
 }
 
-main.active {
-  display: none;
+body.active {
+  overflow: hidden;
 }
 
 header {
