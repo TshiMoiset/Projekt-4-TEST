@@ -23,6 +23,11 @@
   src: url("AvantGardeBookBT.ttf") format("woff");
 }
 
+@font-face {
+  font-family: "Gill-Sans";
+  src: url("GillSansStd-Light.otf") format("woff");
+}
+
 body {
   display: block;
 }
@@ -119,7 +124,7 @@ header {
   /*letter-spacing: 0.2em;
   font-size: 0.8em;
   font-family: "Abeat";*/
-  font-family: "AvantGarde";
+  font-family: "Gill-Sans";
 }
 
 .navbarLinks a:hover {
@@ -159,11 +164,11 @@ header {
   width: 100%;
   padding-bottom: 3px;
   border-bottom: solid 1px white;
-  font-family: "AvantGarde";
+  font-family: "Gill-Sans";
 }
 
 .hamburgerNavContent a {
-  font-family: "AvantGarde";
+  font-family: "Gill-Sans";
   font-size: 0.8em;
 }
 
