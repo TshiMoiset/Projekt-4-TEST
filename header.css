@@ -82,7 +82,6 @@ header {
 
 .logo {
   font-family: "Neon-Display";
-  font-family: "Neon-Display";
   font-size: 2em;
   color: #06bdd9;
   margin: 0;
@@ -119,6 +118,12 @@ header {
   margin: 0 20px;
 }
 
+/*----------- Responsiv menu design -----------*/
+
+.hamburgerNavbarLogo {
+  font-family: "Neon-Display";
+}
+
 /*.dotMenu {
   display: flex;
   position: absolute;
@@ -134,5 +139,3 @@ header {
 .dotMenu:hover {
   transform: scale(1.09);
 }*/
-
-/*----------- Responsiv menu design -----------*/
