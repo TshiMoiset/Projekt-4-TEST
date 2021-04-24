@@ -14,16 +14,6 @@
 }
 
 @font-face {
-  font-family: "Abeat";
-  src: url("Abeatbykai-8geZ.ttf") format("woff");
-}
-
-@font-face {
-  font-family: "AvantGarde";
-  src: url("AvantGardeBookBT.ttf") format("woff");
-}
-
-@font-face {
   font-family: "Gill-Sans";
   src: url("GillSansStd-Light.otf") format("woff");
 }
