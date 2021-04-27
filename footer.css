@@ -1,6 +1,8 @@
 footer {
   left: 0;
   bottom: 0;
+  padding: 0;
+  margin: 0;
   width: 100%;
   height: 100%;
   color: white;
@@ -27,6 +29,8 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  margin-block-end: 0em;
 }
 
 .footerContent ul li {
