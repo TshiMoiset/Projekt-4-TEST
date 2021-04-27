@@ -1,13 +1,6 @@
 /*------------- @MEDIA ------------- @MEDIA -------------*/
-@media screen and (max-width: 1784) {
+@media screen and (max-width: 1784px) {
   /*------------- Header -------------*/
-  .hamburgerButton {
-    display: flex;
-  }
-
-  .navbarLinks {
-    display: none;
-  }
 }
 
 /*------------- @MEDIA ------------- @MEDIA -------------*/
@@ -19,6 +12,21 @@
 
   .navbarLinks {
     display: none;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .footerContent {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .copyright-logo {
+    display: block;
+    text-align: center;
+  }
+
+  .footerLinks ul {
   }
 }
 
