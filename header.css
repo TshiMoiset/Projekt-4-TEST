@@ -97,10 +97,10 @@ li {
   color: #06bdd9;
   margin: 0;
   transition-duration: 500ms;
-  /*transform: rotate(90deg);*/
 }
 
-.logo:hover {
+.logo:hover,
+.logo:active {
   color: white;
   transform: scale(1.09);
   cursor: pointer;
@@ -116,7 +116,7 @@ li {
 
 .navbarLinks a {
   color: #06bdd9;
-  transition-duration: 350ms;
+  transition-duration: 300ms;
   font-family: "Gill-Sans";
 }
 
