@@ -26,6 +26,10 @@ body.active {
   overflow: hidden;
 }
 
+[data-current] {
+  border-bottom: cyan 2px solid;
+}
+
 header {
   padding: 10px 20px;
   /*background-color: rgba(5, 30, 55, 0.7);*/
@@ -178,4 +182,20 @@ li {
 
 .dotMenu:hover {
   transform: scale(1.09);
+}*/
+
+/*
+.drop {
+  animation: dropIn 500ms;
+  --order: 15;
+  animation-delay: calc(var(--order) * 150ms);
+}
+
+@keyframes dropIn {
+  from {
+    transform: translateY(-500px);
+  }
+  to {
+    transform: translateY(0);
+  }
 }*/

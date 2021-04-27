@@ -36,3 +36,20 @@ function closeNavbar() {
     }
 
 }
+
+
+let links = document.querySelectorAll("a");
+let currentPage = "About";
+
+links.forEach(link => {
+    link.addEventListener("click", clickedLink);
+});
+
+function clickedLink(event) {
+    links.forEach(link => {
+        link.removeAttribute("data-current");
+    });
+    currentPage = event.target.innerHTML;
+    event.target.setAttribute("data-current", true);
+    
+}
