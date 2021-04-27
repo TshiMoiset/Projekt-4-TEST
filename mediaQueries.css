@@ -1,4 +1,16 @@
 /*------------- @MEDIA ------------- @MEDIA -------------*/
+@media screen and (max-width: 1784) {
+  /*------------- Header -------------*/
+  .hamburgerButton {
+    display: flex;
+  }
+
+  .navbarLinks {
+    display: none;
+  }
+}
+
+/*------------- @MEDIA ------------- @MEDIA -------------*/
 @media screen and (max-width: 769px) {
   /*------------- Header -------------*/
   .hamburgerButton {
@@ -11,4 +23,3 @@
 }
 
 /*1784 x 1080*/
-
