@@ -3,7 +3,7 @@ footer {
   bottom: 0;
   font-family: "Gill-Sans";
   background-color: #040b12;
-  color: white;
+  color: #ccc;
   padding: 0 20px;
 }
 
@@ -23,6 +23,7 @@ footer {
 .copyright span {
   padding-right: 9px;
   font-family: "Neon-Display";
+  cursor: pointer;
 }
 
 .footerLinks {
@@ -40,4 +41,39 @@ footer {
 .footerContent ul li {
   display: inline;
   margin: 0 20px;
+}
+
+/*-------   Hover effect ---------*/
+
+.copyright span:hover {
+  color: white;
+}
+
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.footerLinks a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.footerLinks a:hover {
+  color: white;
+}
+
+.footerEffect::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: 300ms;
+}
+
+.footerEffect:hover::after {
+  width: 100%;
 }

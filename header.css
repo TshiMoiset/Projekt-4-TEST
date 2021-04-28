@@ -26,9 +26,9 @@ body.active {
   overflow: hidden;
 }
 
-[data-current] {
+/*[data-current] {
   border-bottom: cyan 2px solid;
-}
+}*/
 
 header {
   padding: 10px 20px;
