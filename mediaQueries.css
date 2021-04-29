@@ -24,10 +24,6 @@
   .footerContent {
     justify-content: center;
   }
-
-  .footerEffect::after {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 541px) {
