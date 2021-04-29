@@ -68,7 +68,7 @@ footer {
 .footerEffect::after {
   content: "";
   display: block;
-  width: 0;
+  width: 0%;
   height: 2px;
   background-color: #fff;
   transition: 300ms;
