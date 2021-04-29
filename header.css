@@ -58,6 +58,11 @@ li {
   font-size: 1.6em;
 }
 
+.hamburgerNav a {
+  color: white;
+  text-decoration: none;
+}
+
 .hamburgerButton {
   position: absolute;
   top: 1.2rem;
