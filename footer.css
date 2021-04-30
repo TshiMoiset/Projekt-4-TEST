@@ -5,6 +5,8 @@ footer {
   background-color: #040b12;
   color: #ccc;
   padding: 0 20px;
+  width: 100%;
+  z-index: 10;
 }
 
 .footerContent {

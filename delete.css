@@ -1,43 +1,84 @@
 body {
-  margin: 0;
-  padding-top: 5em;
-  overflow: hidden;
-  min-height: 100vh;
-  width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(images/QuestionsMark.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+	margin: 0;
+	padding-top: 5em;
+	overflow: hidden;
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+		url(images/QuestionsMark.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 ul {
-  list-style: none;
-  font-size: 4em;
+	list-style: none;
+	font-size: 4em;
 }
 
 a {
-  text-decoration: none;
-  color: blue;
+	text-decoration: none;
+	color: blue;
 }
 
 a:hover {
-  color: aquamarine;
+	color: aquamarine;
 }
 
 .indexH1 {
-  text-align: center;
-  font-size: 6em;
-  color: antiquewhite;
+	text-align: center;
+	font-size: 6em;
+	color: antiquewhite;
 }
 
 .buttonsToo ul {
-  display: flex;
-  justify-content: space-around;
+	display: flex;
+	justify-content: space-around;
 }
 
 footer {
-  color: antiquewhite;
-  bottom: 0;
-  text-align: center;
+	color: antiquewhite;
+	bottom: 0;
+	text-align: center;
+}
+
+body {
+	overflow: hidden;
+}
+
+main {
+	display: flex;
+}
+
+.rightContent {
+	padding: 3px;
+	position: absolute;
+	background-color: #051e37;
+	height: 100%;
+	right: 0;
+	/*height: 87.5%;*/
+}
+
+.socialMedia a {
+	display: flex;
+	padding: 20px;
+	writing-mode: vertical-lr;
+	transform: rotate(-180deg);
+	left: 100000000px;
+	color: #06bdd9;
+	transition: 500ms;
+}
+
+.socialMedia a:hover {
+	color: white;
+}
+
+.socialMedia ul {
+	padding: 0;
+}
+
+img {
+	display: none;
+	width: 500px;
+	height: auto;
 }

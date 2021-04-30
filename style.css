@@ -1,60 +1,61 @@
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  color: white;
+	margin: 0;
+	padding: 0;
+	color: white;
+	height: 100vh;
 }
 
 /*------------------  Scrollen  ------------------*/
 
 /* width */
 ::-webkit-scrollbar {
-  width: 2px;
+	width: 0;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: white;
+	background: white;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #041e37;
+	background: #142d57;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #0b6280;
+	background: #0b6280;
 }
 
 /*----------------  Kod för backgrundsbilderna ----------------*/
 :is(.neonCar, .neonCity, .neonMask, .neonArtist) {
-  min-height: 100vh;
-  width: 100%;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
+	min-height: 100vh;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
 }
 .neonCar {
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(CarHeroImg/CarHeroImg6.png);
+	background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+		url(CarHeroImg/CarHeroImg6.png);
 }
 
 .neonMask {
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(XmaskHeroImg/XmaskHeroImg9.1.png);
+	background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+		url(XmaskHeroImg/XmaskHeroImg9.1.png);
 }
 
 .neonCity {
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(CityHeroImg/CityHeroImg1.jpg);
+	background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+		url(CityHeroImg/CityHeroImg1.jpg);
 }
 
 .neonArtist {
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(ArtistHeroImg/ArtisHeroImg4.jpg);
+	background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+		url(ArtistHeroImg/ArtisHeroImg4.jpg);
 }
