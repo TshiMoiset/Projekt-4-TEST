@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  /* !Ta bort om du inte gillar den */
+  user-select: none;
 }
 
 body {

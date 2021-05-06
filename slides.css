@@ -44,6 +44,12 @@
 
 .arrow {
   opacity: 1;
+  margin-top: 2.5rem;
+}
+
+.next:hover {
+  transition: 400ms;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 @keyframes fade {

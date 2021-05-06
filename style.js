@@ -34,9 +34,7 @@ function closeNavbar() {
     else {
         document.getElementById("hamburgerButton").style.display = "none";
     }
-
 }
-
 
 let links = document.querySelectorAll("a");
 let currentPage = "About";
@@ -53,8 +51,6 @@ function clickedLink(event) {
     event.target.setAttribute("data-current", true);
     
 }
-
-
 
 var slideIndex = 0;
 showSlides();
@@ -73,3 +69,5 @@ function showSlides() {
     text[slideIndex-1].style.opacity = "1";  
     setTimeout(showSlides, 6000);
 }
+
+
