@@ -4,24 +4,194 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IDK</title>
-    <link rel="shortcut icon" href="images/QuestionsMark.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="delete.css">
+    <title>NeonMask</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="slides.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="mediaQueries.css">
+
+    <script defer src="style.js"></script>
+
+    <link rel="shortcut icon" href="XmaskHeroImg/XmaskHeroImg9.1.png" type="image/x-icon">
 </head>
-<body class="idk">
+<body class="neonMask">
+    <header>
+        <div class="navbar">
+            <span class="logo">NeoN</span>
+
+            <div class="hamburgerButton" onclick="openNavbar()" id="hamburgerButton">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <div class="navbarLinks">
+                <ul>
+                    <li><a href="#" >About</a></li>
+                    <li><a href="#" >Artist</a></li>
+                    <li><a href="#" >Consert</a></li>
+                    <li><a href="#" >FAQ</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="hamburgerNav" id="hamburgerNavbarLinks">
+            <span class="hamburgerNavLogo">NeoN</span>
+            <div class="hamburgerNavContent">
+                <h2>Menu</h2>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Artist</a></li>
+                    <li><a href="#">Consert</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+                <h2>Neon Media</h2>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+                <h2>Tags</h2>
+                <ul>
+                    <li><a href="#">#Neon4Life</a></li>
+                    <li><a href="#">#ElectroPop</a></li>
+                    <li><a href="#">#TropicalHouse</a></li>
+                    <li><a href="#">#ElectroHouse</a></li>
+                    <li><a href="#">#ProgressivHouse</a></li>
+                </ul>
+            </div>
+            
+            <div class="crossButton" onclick="closeNavbar()" id="closeButoon">
+                <div>&#10006;</div>
+            </div>
+        </div>
+    </header>
+
     <main>
-        <h1 class="indexH1">CUT THE BULLSHIT</h1>
-        <div class="buttonsToo">
+        
+        <div class="slideshow-container">
+            <div class="slides fade">
+                <img src="MartinGarrixImg/Martin Garrix1.jpg" alt="Artist">
+            </div>
+
+            <div class="slides fade">
+                <img src="https://media.discordapp.net/attachments/688770124651560978/839827268489838592/wp5306149.jpg?width=989&height=618" alt="Artist">
+            </div>
+            
+            <div class="slides fade">
+                <img src="MartinGarrixImg/Martin Garrix3.jpg" alt="Artist">
+            </div>
+            <div class="bottom">
+                
+                <div class="left text">
+                    <h1>Martin Garri</h1>
+                    <p>Discjockey</p>
+                </div>
+
+                <div class="mid text">
+                    <h1>Quote: </h1> 
+                    <p>
+                    I want to show everyone that if you pursue your dreams, they can come true no matter what. 
+                    That's what I want to do.
+                    </p>
+                </div>
+
+                <div class="right text">
+                    <h1>Best known for: </h1>                     
+                    <p>
+                    “Three times No.1 on the DJ Mag Top 100. ‘Summer Days’, ‘In The Name Of Love’, ‘Scared To Be Lonely’, ‘Drown’, ‘Animals’. Official music artist of EURO2020.”
+                    </p>
+                </div>
+                
+                <div class="arrow text">
+                    <ul >
+                        <li><a class="prev" onclick="plusSlides(-1)">&#10094;</a></li>
+                        <li><a class="next" onclick="plusSlides(1)">&#10095;</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div> 
+
+
+
+
+
+        <!-- <div class="leftContent">
+
+            <div class="banner1">
+                <div class="image">
+                    <img src="MartinGarrixImg/Martin Garrix1.jpg" alt="Artist">
+                </div>
+                <div class="bannerText">
+                    <h1>Martin Garrix</h1>
+                    <div class="subheader">
+                        <p>Discjockey</p>                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner2">
+                <div class="image">
+                    <img src="MartinGarrixImg/Martin Garrix2.jpg" alt="Artist">
+                </div>
+                <div class="bannerText">
+                    <h1>Quote</h1>
+                    <div class="subheader">
+                        <p>I want to show everyone that if you pursue your dreams, they can come true no matter what. That's what I want to do.</p>                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner3">
+                <div class="image">
+                    <img src="MartinGarrixImg/Martin Garrix3.jpg" alt="Artist">
+                </div>
+                <div class="bannerText">
+                    <h1>Best known for:</h1>
+                    <div class="subheader">
+                        <p>“Three times No.1 on the DJ Mag Top 100. ‘Summer Days’, ‘In The Name Of Love’, ‘Scared To Be Lonely’, ‘Drown’, ‘Animals’. Official music artist of EURO2020.”</p>                        
+                    </div>
+                </div>
+            </div>
+
             <ul>
-                <li><a href="neonCar.html">NeonCar</a></li>
-                <li><a href="neonMask.html">NeonMask</a></li>
-                <li><a href="neonCity.html">NeonCity</a></li>
-                <li><a href="neonArtist.html">NeonArtist</a></li>
+                <li><a class="prev" onclick="plusSlides(-1)">&#10094;</a></li>
+                <li><a class="next" onclick="plusSlides(1)">&#10095;</a></li>
             </ul>
+
+        </div> -->
+
+        <div class="rightContent">
+            <div class="socialMedia">
+                <ul>
+                    <li><a href="#" target="_blank">Facebook</a></li>
+                    <li><a href="#" target="_blank">Instagram</a></li>
+                    <li><a href="#" target="_blank">Twitter</a></li>
+                    <li><a href="#" target="_blank">Official Website</a></li>
+                </ul>
+            </div>
         </div>
     </main>
-    <footer>
-        <h1>©2021 NeonCorp, Moon, All Rights Reserved.</h1>
-    </footer>
+
+    <!--<footer>
+        <div class="footerContent">
+            <div class="copyright">
+                <span class="footerLogo">NeoN</span>
+                <p>&copy; 2021 NeonCorp</p> 
+            </div>
+            
+            <div class="footerLinks">
+                <ul>
+                    <li><a class="footerEffect" href="#">Terms & Conditions</a></li>
+                    <li><a class="footerEffect" href="#">Privacy Policy</a></li>
+                    <li><a class="footerEffect" href="#">Cookies Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>-->
+    
 </body>
 </html>

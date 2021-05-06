@@ -53,3 +53,23 @@ function clickedLink(event) {
     event.target.setAttribute("data-current", true);
     
 }
+
+
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("slides");
+    var text = document.getElementsByClassName("text");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+        text[i].style.opacity = "0.2";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";  
+    text[slideIndex-1].style.opacity = "1";  
+    setTimeout(showSlides, 6000);
+}

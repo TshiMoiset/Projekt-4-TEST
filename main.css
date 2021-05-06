@@ -1,47 +1,41 @@
 body {
-	overflow: hidden;
+  overflow: hidden;
 }
 
 main {
-	display: flex;
+  display: flex;
+  height: 95vh;
+  width: 95vh;
 }
 
 .rightContent {
-	/*padding: 3px;*/
-	padding: 15px 5px;
-	position: absolute;
-	background-color: #051e37;
-	height: 100%;
-	right: 0;
-	/*height: 87.5%;*/
+  padding: 15px 5px;
+  position: absolute;
+  background-color: #051e37;
+  height: 95vh;
+  right: 0;
 }
 
 .socialMedia a {
-	display: flex;
-	padding: 20px;
-	writing-mode: vertical-lr;
-	transform: rotate(-180deg);
-	left: 100000000px;
-	color: #06bdd9;
-	font-family: "Gill-Sans";
-	transition: 500ms;
+  display: flex;
+  padding: 20px;
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg);
+  left: 100000000px;
+  color: #06bdd9;
+  font-family: "Gill-Sans";
+  transition: 500ms;
 }
 
 .socialMedia a:hover {
-	color: white;
+  color: white;
 }
 
 .socialMedia ul {
-	padding: 0;
-}
-
-img {
-	display: none;
-	width: 500px;
-	height: auto;
+  padding: 0;
 }
 
 .leftContent {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }

@@ -1,0 +1,60 @@
+.slides {
+  display: none;
+}
+
+.slides img {
+  width: 96vw;
+  height: 95vh;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 60%;
+  width: 95%;
+  height: 10%;
+}
+
+.mid {
+  width: 15vw;
+}
+
+.right {
+  width: 20vw;
+}
+
+.text {
+  opacity: 0.2;
+  cursor: default;
+}
+
+.arrow ul {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  padding-inline-start: 0px;
+  cursor: pointer;
+  font-size: 72px;
+}
+
+.arrow {
+  opacity: 1;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
