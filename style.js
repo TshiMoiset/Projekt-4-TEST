@@ -155,3 +155,59 @@ function showSlides() {
     document.querySelector(".slideshow-container").classList.toggle("disactive");
     });
 });
+// Prev
+[
+    document.querySelector(".prev")
+].forEach((item) => {
+    item.addEventListener("click", (event) => {
+    document.querySelector(".slideshow-container").classList.toggle("disactive");
+    document.querySelector(".slideshow-container-next5").classList.toggle("active");
+    });
+});
+
+[
+    document.querySelector(".prev6")
+].forEach((item) => {
+    item.addEventListener("click", (event) => {
+    document.querySelector(".slideshow-container-next5").classList.toggle("active");
+    document.querySelector(".slideshow-container-next4").classList.toggle("active");
+    });
+});
+
+
+[
+    document.querySelector(".prev5")
+].forEach((item) => {
+    item.addEventListener("click", (event) => {
+    document.querySelector(".slideshow-container-next4").classList.toggle("active");
+    document.querySelector(".slideshow-container-next3").classList.toggle("active");
+    });
+});
+
+[
+    document.querySelector(".prev4")
+].forEach((item) => {
+    item.addEventListener("click", (event) => {
+    document.querySelector(".slideshow-container-next3").classList.toggle("active");
+    document.querySelector(".slideshow-container-next2").classList.toggle("active");
+    });
+});
+
+
+[
+    document.querySelector(".prev3")
+].forEach((item) => {
+    item.addEventListener("click", (event) => {
+    document.querySelector(".slideshow-container-next2").classList.toggle("active");
+    document.querySelector(".slideshow-container-next").classList.toggle("active");
+    });
+});
+
+[
+    document.querySelector(".prev2")
+].forEach((item) => {
+    item.addEventListener("click", (event) => {
+    document.querySelector(".slideshow-container-next").classList.toggle("active");
+    document.querySelector(".slideshow-container").classList.toggle("disactive");
+    });
+});

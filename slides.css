@@ -66,18 +66,12 @@
   padding-inline-start: 0px;
   cursor: pointer;
   font-size: 72px;
+  display: flex;
 }
 
 .arrow {
   opacity: 1;
   margin-top: 2.5rem;
-}
-
-.next:hover,
-.next2:hover,
-.next3:hover {
-  transition: 400ms;
-  background-color: rgba(0, 0, 0, 0.3);
 }
 
 @keyframes fade {
