@@ -1,8 +1,25 @@
-.slides {
+.slides,
+.slides2 {
   display: none;
 }
 
-.slides img {
+.slideshow-container.active {
+  display: none;
+}
+.slideshow-container {
+  display: block;
+}
+
+.slideshow-container-next.disactive {
+  display: unset;
+}
+
+.slideshow-container-next {
+  display: none;
+}
+
+.slides img,
+.slides2 img {
   width: 96vw;
   height: 95vh;
 }
@@ -47,7 +64,8 @@
   margin-top: 2.5rem;
 }
 
-.next:hover {
+.next2:hover,
+.next1:hover {
   transition: 400ms;
   background-color: rgba(0, 0, 0, 0.3);
 }
